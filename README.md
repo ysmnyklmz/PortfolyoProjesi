@@ -8,24 +8,21 @@ Hem yazılım becerilerimi hem de proje geliştirme yetkinliğimi yansıtan mode
 ---
 
 ## 🖼️ Proje Görselleri
-(https://github.com/user-attachments/assets/3b107eb2-9c93-4356-bb12-00978f144f70)
 
+### 🏠 Ana Sayfa
+![Ana Sayfa](https://github.com/user-attachments/assets/3b107eb2-9c93-4356-bb12-00978f144f70)
 
-(screenshots/home.png)
+### 👤 Hakkımda
+![Hakkımda](https://github.com/user-attachments/assets/24921e90-3f11-459d-930f-1ee97dacc9ef)
 
-(https://github.com/user-attachments/assets/24921e90-3f11-459d-930f-1ee97dacc9ef)
-(https://github.com/user-attachments/assets/cbe08da0-1543-41d2-9f3b-29a83f85a2c6)
+### 📂 Projeler
+![Projeler](https://github.com/user-attachments/assets/cbe08da0-1543-41d2-9f3b-29a83f85a2c6)
 
+### 🔐 Admin Paneli
+![Admin Paneli](https://github.com/user-attachments/assets/b7b3b08c-79d7-48c6-a6b1-a835b37175ae)
 
-
-(https://github.com/user-attachments/assets/b7b3b08c-79d7-48c6-a6b1-a835b37175ae)
-
-
-(https://github.com/user-attachments/assets/8ce9db1d-13fd-4b47-b78e-5800e02bf53f)
-
-
-
-
+### 📱 Mobil Uyum
+![Mobil Görünüm](https://github.com/user-attachments/assets/8ce9db1d-13fd-4b47-b78e-5800e02bf53f)
 
 ---
 
@@ -37,7 +34,7 @@ Hem yazılım becerilerimi hem de proje geliştirme yetkinliğimi yansıtan mode
 - ✔️ MVC mimarisi
 - ✔️ Entity Framework ile veritabanı yönetimi
 - ✔️ Modüler ve okunabilir kod yapısı
-- ✔️ Admin paneli ile içerik kontrolü *(varsa)*
+- ✔️ Admin paneli ile içerik kontrolü
 
 ---
 
@@ -56,4 +53,6 @@ Hem yazılım becerilerimi hem de proje geliştirme yetkinliğimi yansıtan mode
 ---
 
 ## 🗂️ Proje Mimarisi
+
+Bu proje **katmanlı mimari (N-Tier Architecture)** prensiplerine uygun olarak geliştirilmiştir.
 
