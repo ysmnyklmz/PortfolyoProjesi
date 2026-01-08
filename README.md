@@ -8,18 +8,25 @@ Hem yazılım becerilerimi hem de proje geliştirme yetkinliğimi yansıtan mode
 ---
 
 ## 🖼️ Proje Görselleri
+![anasayfa](https://github.com/user-attachments/assets/3b107eb2-9c93-4356-bb12-00978f144f70)
 
 ### 🏠 Ana Sayfa
 ![Ana Sayfa](screenshots/home.png)
 
 ### 👤 Hakkımda
-![Hakkımda](screenshots/about.png)
+![Hakkımda]![hakkımda](https://github.com/user-attachments/assets/24921e90-3f11-459d-930f-1ee97dacc9ef)
+![hakkımda1](https://github.com/user-attachments/assets/cbe08da0-1543-41d2-9f3b-29a83f85a2c6)
+
+
 
 ### 📂 Projeler
-![Projeler](screenshots/projects.png)
+![Projeler]![projeler](https://github.com/user-attachments/assets/b7b3b08c-79d7-48c6-a6b1-a835b37175ae)
+
 
 ### 🔐 Admin Paneli (Varsa)
-![Admin Paneli](screenshots/admin.png)
+![İletişim] 
+(https://github.com/user-attachments/assets/2d37bb66-882e-4a85-b9d2-4a402fd75110)
+
 
 ### 📱 Mobil Uyum
 ![Mobil](screenshots/mobile.png)
