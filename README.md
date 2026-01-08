@@ -21,7 +21,7 @@ Hem yazılım becerilerimi hem de proje geliştirme yetkinliğimi yansıtan mode
 ### 🔐 Admin Paneli
 ![Admin Paneli](https://github.com/user-attachments/assets/b7b3b08c-79d7-48c6-a6b1-a835b37175ae)
 
-### 📱 Mobil Uyum
+### 📱 İletişim
 ![Mobil Görünüm](https://github.com/user-attachments/assets/8ce9db1d-13fd-4b47-b78e-5800e02bf53f)
 
 ---
