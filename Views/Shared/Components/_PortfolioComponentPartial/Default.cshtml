@@ -1,0 +1,54 @@
+@using MyPortfolio.DAL.Entities
+@model List<Portfolio>
+
+<section id="works" class="s-works target-section">
+
+    <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full">
+            <h3>Portfolyo</h3>
+            <h1>Son Projelerime Göz Atabilirsiniz</h1>
+            <p class="lead">Yazılım ve tasarım alanında geliştirdiğim güncel projelerim aşağıdadır.</p>
+        </div>
+    </div>
+
+    <div class="row masonry-wrap">
+        <div class="masonry">
+
+            @foreach (var item in Model)
+            {
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="@item.ImageUrl" class="thumb-link" title="@item.Title" data-size="1050x700" target="_blank">
+                                <img src="@item.ImageUrl" 
+                                     alt="@item.Title"
+                                     style="width: 100%; height: 350px; object-fit: cover; border-radius: 5px;"> 
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                @item.Title
+                            </h3>
+                            <p class="item-folio__cat">
+                                @item.SubTitle
+                            </p>
+                        </div>
+
+                        <a href="@item.ImageUrl" class="item-folio__project-link" title="Projeyi İncele" target="_blank">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>@item.Description</p>
+                        </div>
+
+                    </div> 
+                </div> 
+            }
+
+        </div>
+    </div> 
+
+</section>

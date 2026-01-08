@@ -1,0 +1,42 @@
+@using MyPortfolio.DAL.Entities
+@model List<Experience>
+
+<section id="resume" class="s-resume target-section">
+
+    <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full text-center">
+            <h3>Deneyimlerim</h3>
+            <h1 style="color: #FFFFFF;">Çalışma Geçmişim</h1> 
+        </div>
+    </div>
+
+    <div class="row about-content about-content--timeline">
+        <div class="col-full text-center">
+            
+            @foreach (var item in Model)
+            {
+                <div class="col-six tab-full left">
+                    <div class="timeline">
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                
+                                <p class="timeline__timeframe" style="color: #ffffff;">@item.Date</p>
+                                
+                                <h3 style="color: #FFFFFF;">@item.Head</h3>
+                                
+                                <h5 style="color: #cc0000;">@item.Title</h5>
+                                
+                            </div>
+                            <div class="timeline__desc">
+                                <p style="color: #bbbbbb;">@item.Description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+
+</section>

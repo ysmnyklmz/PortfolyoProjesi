@@ -1,0 +1,40 @@
+@using MyPortfolio.DAL.Entities
+@model List<Testimonial>
+
+<section id="testimonials" class="s-testimonials target-section">
+
+    <div class="overlay"></div>
+
+    <div class="row testimonials-header">
+        <div class="col-full">
+            <h1 class="h02">İnsanlar Benim Hakkımda Ne Dediler</h1>
+        </div>
+    </div>
+
+    <div class="row testimonials">
+
+        <div class="col-full testimonials__slider">
+
+            @foreach (var item in Model)
+            {
+                <div class="testimonials__slide">
+                    
+                    <img src="@item.ImageUrl" 
+                         alt="@item.NameSurname" 
+                         class="testimonial-avatar"
+                         style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+                    
+                    <p>@item.Description</p>
+                    
+                    <div class="testimonials__author h06">
+                        @item.NameSurname
+                        <span>@item.Title</span>
+                    </div>
+
+                </div>
+            }
+            
+        </div> 
+    </div> 
+
+</section>
