@@ -15,10 +15,10 @@ Hem yazılım becerilerimi hem de proje geliştirme yetkinliğimi yansıtan mode
 ### 👤 Hakkımda
 ![Hakkımda](https://github.com/user-attachments/assets/24921e90-3f11-459d-930f-1ee97dacc9ef)
 
-### 📂 Projeler
+### 📂 Hakkımda
 ![Projeler](https://github.com/user-attachments/assets/cbe08da0-1543-41d2-9f3b-29a83f85a2c6)
 
-### 🔐 Admin Paneli
+### 🔐 Projeler
 ![Admin Paneli](https://github.com/user-attachments/assets/b7b3b08c-79d7-48c6-a6b1-a835b37175ae)
 
 ### 📱 İletişim
